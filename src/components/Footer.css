@@ -1,0 +1,56 @@
+.footer {
+    background-color: #333; /* Adjust based on your design */
+  }
+  
+  .footer-text {
+    color: #fff; /* Text color for the left side content */
+  }
+  
+  .contact-me {
+    background-color: #444; /* Adjust based on your design */
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 6rem;
+    text-align: center;
+  }
+  
+  .contact-me h4 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Adjust based on your design */
+    border: none;
+  }
+  
+  .social-icons {
+    color: #fff; /* Color of social media icons */
+  }
+  
+  .social-icons i {
+    font-size: 1.5rem;
+  }
+  
+  .copy-right {
+    color: #fff; /* Color for the copyright text */
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      text-align: center;
+    }
+  
+    .contact-me {
+      margin-top: 20px;
+    }
+  }
+  
