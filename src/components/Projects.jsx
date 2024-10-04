@@ -11,8 +11,8 @@ const projects = [
   {
     image: portfolio,
     title: "Portfolio",
-    demoLink: "#",
-    codeLink: "#",
+    demoLink: "https://lalit1223.github.io/portfolio/",
+    codeLink: "https://github.com/Lalit1223/portfolio.git",
   },
   {
     image: project2,
