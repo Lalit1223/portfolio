@@ -7,9 +7,9 @@ const About = () => {
       <h2 className="main-title py-5">About</h2>
       <div className="container p-md-4">
         <div className="card mb-3">
-          <div className="row g-0">
+          <div className="row g-2">
             <div className="col-md-6 p-md-4 pic">
-              <img src={DP} className="img-fluid rounded border border-white" alt="Profile" />
+              <img src={DP} className="img-fluid rounded border border-white " alt="Profile" />
             </div>
             <div className="col-md-6 align-self-center">
               <div className="card-body p-md-4 text-center text-md-start">

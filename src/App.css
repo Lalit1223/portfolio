@@ -301,10 +301,6 @@ nav.wnscrl {
   background-color: inherit !important;
 }
 
-.skills img {
-  width: 30px;
-  height: 30px;
-}
 
 @media (max-width: 767px) {
   .about .card-body {
@@ -326,7 +322,7 @@ nav.wnscrl {
 
 .about img {
   transition: var(--main-dur);
-  height: 100%;
+  height: calc(100vh - 200px);
 }
 
 .about img:hover {

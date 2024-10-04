@@ -1,49 +1,49 @@
-import React from 'react';
-import portfolio from '../images/image.png';
+import React from "react";
+import portfolio from "../images/image.png";
 // Import other images here
-import project2 from '../images/Screenshot (46).png';
-import project3 from '../images/Screenshot (33).png';
-import project4 from '../images/Screenshot (34).png';
-import project5 from '../images/Screenshot (39).png';
-import project6 from '../images/image.png';
+import project2 from "../images/Screenshot (46).png";
+import project3 from "../images/Screenshot (33).png";
+import project4 from "../images/Screenshot (34).png";
+import project5 from "../images/Screenshot (39).png";
+import project6 from "../images/image.png";
 
 const projects = [
   {
     image: portfolio,
     title: "Portfolio",
     demoLink: "#",
-    codeLink: "#"
+    codeLink: "#",
   },
   {
     image: project2,
-    title: "Project 2",
-    demoLink: "#",
-    codeLink: "#"
+    title: "Urban clap ",
+    demoLink: "https://lalit1223.github.io/Urban-clap-UI/",
+    codeLink: "https://github.com/Lalit1223/Urban-clap-UI",
   },
   {
     image: project3,
-    title: "Project 3",
-    demoLink: "#",
-    codeLink: "#"
+    title: "Travels",
+    demoLink: "https://lalit1223.github.io/travels-react-clone/",
+    codeLink: "https://github.com/Lalit1223/travels-react-clone.git",
   },
   {
     image: project4,
-    title: "Project 4",
-    demoLink: "#",
-    codeLink: "#"
+    title: "Facebook",
+    demoLink: "https://lalit1223.github.io/facebook-clone/",
+    codeLink: "https://github.com/Lalit1223/facebook-clone.git",
   },
   {
     image: project5,
-    title: "Project 5",
+    title: "Ablaze",
     demoLink: "#",
-    codeLink: "#"
+    codeLink: "https://github.com/Lalit1223/Ablaze_UI",
   },
   {
     image: project6,
     title: "Project 6",
     demoLink: "#",
-    codeLink: "#"
-  }
+    codeLink: "#",
+  },
 ];
 
 const Projects = () => {
@@ -54,16 +54,37 @@ const Projects = () => {
         {projects.map((project, index) => (
           <div className="card cd position-relative" key={index}>
             <div className="card-img">
-              <img src={project.image} className="card-img-top" alt={project.title} />
+              <img
+                src={project.image}
+                className="card-img-top"
+                alt={project.title}
+              />
             </div>
             <div className="card-body text-center">
-              <h5 className="card-title"><span>&lt; </span>{project.title}<span> /&gt;</span></h5>
+              <h5 className="card-title">
+                <span>&lt; </span>
+                {project.title}
+                <span> /&gt;</span>
+              </h5>
               <div className="btns d-flex justify-content-center gap-3 mt-4">
                 <button type="button" className="btn btn-lg py-2 px-5">
-                  <a href={project.demoLink} style={{ textDecoration: 'none', color: 'white' }}>Demo</a>
+                  <a
+                    href={project.demoLink}
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    Demo
+                  </a>
                 </button>
-                <button type="button" className="btn btn-outline-secondary btn-lg py-2 px-5">
-                  <a href={project.codeLink} style={{ textDecoration: 'none', color: 'inherit' }}>Code</a>
+                <button
+                  type="button"
+                  className="btn btn-outline-secondary btn-lg py-2 px-5"
+                >
+                  <a
+                    href={project.codeLink}
+                    style={{ textDecoration: "none", color: "inherit" }}
+                  >
+                    Code
+                  </a>
                 </button>
               </div>
             </div>
